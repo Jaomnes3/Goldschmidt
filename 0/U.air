@@ -37,8 +37,8 @@ boundaryField
     bottom
     {
         type            interstitialInletVelocity;
-        inletVelocity   uniform (0 0 0.00011);
-        value           uniform (0 0 0.00011);
+        inletVelocity   uniform (0 0 0.015);
+        value           uniform (0 0 0.015);
 //　　　　　　　　　dp=0.2mm粒子の最小流動化速度
         phi             phi.air;
         alpha           alpha.air;
