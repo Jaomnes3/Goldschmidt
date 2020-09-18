@@ -70,7 +70,7 @@ boundary
 
     frontAndBack
     {
-        type symmetry;
+        type wall;
         faces
         (
             (1 2 6 5)

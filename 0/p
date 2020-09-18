@@ -43,7 +43,9 @@ boundaryField
 
     frontAndBack
     {
-        type            symmetry;
+        type            fixedFluxPressure;
+	phi		phi.air;
+	value		$internalField;
     }
 }
 
